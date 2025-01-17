@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #1e1e1e;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+canvas {
+    background-color: #111;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.pontos {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.ponto {
+    font-weight: 700;
+    font-size: 3.5rem;
+    display: block;
+    margin-top: -10px;
+}
+
+.menu {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.fimJogo {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.pontoFinal {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.btn-play {
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    background-color: #f5a623;
+    transition: background-color 0.3s ease;
+}
+
+.btn-play:hover {
+    background-color: #d48f19;
+}
+
+.btn-play .material-symbols-outlined {
+    font-size: 1.6rem;
+}
