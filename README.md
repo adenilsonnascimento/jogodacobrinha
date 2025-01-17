@@ -41,4 +41,10 @@ Estou planejando aprimorar o jogo com:
 2. Abra o arquivo `index.html` em seu navegador.
 3. Use as setas do teclado para controlar a cobra e tente obter a maior pontuação possível!
 
+## Como Acessar
+
+Clique no botão abaixo para acessar o site:
+
+[![Acesse o jogodacobrinha](https://img.shields.io/badge/Acessar-Jogo%20da%20Cobrinha-blue)](https://adenilsonnascimento.github.io/jogodacobrinha/)
+
 Agradeço por conferir o meu projeto. Qualquer feedback ou sugestão será muito bem-vindo!
